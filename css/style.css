@@ -1,0 +1,12 @@
+
+p.center{
+	text-align: center;
+.red 
+	border: 1px solid black;
+    background-color: red;
+table {
+  border-width:1px;
+  border-style: solid;
+  border-color: black;
+  width: 50px
+}
