@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title> Calculatrice en Javascript</title>
+   <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+   <table>
+       <tr>
+           <td colspan="4"><input type="text" id="resultat"></td>
+       <tr>
+           <td><input type="button" value="C" id="eras" onclick="eras()"></td>
+           <td><input type="button" value="(" id="left" onclick="left()"></td>
+           <td><input type="button" value=")" id="right" onclick="right()"></td>
+           <td><input type="button" value="+" id="plus" onclick="plus()"></td>
+       </tr>
+       <tr>
+           <td><input type="button" value="1" id="un" onclick="un()"></td>
+           <td><input type="button" value="2" id="deux" onclick="deux()"></td>
+           <td><input type="button" value="3" id="trois" onclick="trois()"></td>
+           <td><input type="button" value="-" id="minus" onclick="minus()"></td>
+       </tr>
+       <tr>
+           <td><input type="button" value="4" id="quatre" onclick="quatre()"></td>
+           <td><input type="button" value="5" id="cinq" onclick="cinq()"></td>
+           <td><input type="button" value="6" id="six" onclick="six()"></td>
+           <td><input type="button" value="*" id="multiplication" onclick="multiplication()"></td>
+       </tr>
+       <tr>
+           <td><input type="button" value="7" id="sept" onclick="sept()"></td>
+           <td><input type="button" value="8" id="huit" onclick="huit()"></td>
+           <td><input type="button" value="9" id="neuf" onclick="neuf()"></td>
+           <td><input type="button" value="/" id="division" onclick="division()"></td>
+       </tr>
+        <tr>
+           <td><input type="button" value="0" id="zero" onclick="zero()"></td>
+           <td></td>
+           <td></td>
+           <td><input type="button" value="=" id="total" onclick="total()"></td>
+       </tr>
+   </table>
+</body>
+   <script src="js/app.js"></script>
+
+</html>
